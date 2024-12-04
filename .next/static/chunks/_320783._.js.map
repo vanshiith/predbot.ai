@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/page.tsx"],"sourcesContent":["// File: app/page.tsx (Landing Page)\n\n'use client'\nimport React, { useEffect } from 'react';\nimport { useRouter } from 'next/navigation';\nimport { useAuth } from 'context/AuthContext';\n\nexport default function LandingPage(): JSX.Element {\n  const router = useRouter();\n\n  return (\n    <div className=\"flex flex-col items-center justify-center h-screen bg-gray-100\">\n      <h1 className=\"text-4xl font-bold mb-6\">Welcome to the PRED AI Bot</h1>\n      <p className=\"text-lg mb-8 text-center\">\n        Log in to access the bot.\n      </p>\n      <button\n        onClick={() => router.push('/login')}\n        className=\"px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700\"\n      >\n        Log In\n      </button>\n    </div>\n  );\n}\n"],"names":[],"mappings":"AAAA,oCAAoC;;;;;;;;;AAEpC;;AAKe,SAAS;;IACtB,MAAM,SAAS,CAAA,GAAA,qIAAA,CAAA,YAAS,AAAD;IAEvB,qBACE,6LAAC;QAAI,WAAU;;0BACb,6LAAC;gBAAG,WAAU;0BAA0B;;;;;;0BACxC,6LAAC;gBAAE,WAAU;0BAA2B;;;;;;0BAGxC,6LAAC;gBACC,SAAS,IAAM,OAAO,IAAI,CAAC;gBAC3B,WAAU;0BACX;;;;;;;;;;;;AAKP;GAjBwB;;QACP,qIAAA,CAAA,YAAS;;;KADF"}},
+    {"offset": {"line": 62, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO"}},
+    {"offset": {"line": 71, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
