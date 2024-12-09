@@ -72,7 +72,7 @@ To run PredBot.ai locally, ensure you have the following installed:
 Initial setup of PredBot.ai, including foundational features and core functionality.  
 
 ### [Milestone 2](https://docs.google.com/document/d/1uynBy1lRmLPqyC6qW7G1MLVvPTBw8Ko_KLh2K9suD6E/edit?usp=sharing)  
-Enhancements to data integration, user interface, and expanded capabilities for presenting financial insights.  
+Architecture and Software Design 
 
 ---
 
